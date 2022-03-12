@@ -6,4 +6,6 @@ export interface IProyecto {
     logo: string;
     tags: string;
     enlace: string;
+    fondo: string;
+    texto: string;
 }

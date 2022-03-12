@@ -13,7 +13,7 @@ export class Proyecto extends BaseEntity {
     name: string;
 
     @Column({
-        length: 100,
+        length: 250,
         nullable: false
     })
     descripcion: string;
@@ -41,5 +41,17 @@ export class Proyecto extends BaseEntity {
         nullable: false
     })
     enlace: string;
+
+    @Column({
+        length: 50,
+        nullable: false
+    })
+    fondo: string;
+
+    @Column({
+        length: 50,
+        nullable: false
+    })
+    texto: string;
 
 }
